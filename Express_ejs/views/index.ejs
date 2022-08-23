@@ -1,0 +1,11 @@
+
+    <h1>Welcome To Home Page</h1>
+    <h1>Selamat datang <%= nama %>  <h1>
+        <h2>List user</h2>
+        <% user.forEach(element => { %>
+            <ul>
+                <li>nama: <%= element.nama%> </li>
+                <li>email: <%= element.email%>  </li>
+            </ul>
+        <% }) %>
+        
